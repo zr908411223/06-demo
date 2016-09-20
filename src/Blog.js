@@ -15,12 +15,10 @@ class Blog extends React.Component {
     let add = this.props.params.title;
     getMd(add)
       .then( (recData) => {
-        // console.log(recData.getJson);
         this.setState({
           data:recData.getMd,
           wait:false
         })
-        console.log(this.state.data);
       });
   }
   render () {

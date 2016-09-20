@@ -25,7 +25,6 @@ class About extends React.Component {
           data:recData.getDate,
           wait:false
         })
-        // console.log(this.state.data);
       });
   }
   render () {
